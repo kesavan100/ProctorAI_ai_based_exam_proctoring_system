@@ -1,2 +1,23 @@
-venv/ 
-backend/venv/ 
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Database
+*.db
+
+# Evidence images/videos
+backend/evidence/
+
+# Models
+*.pt
+
+# Frontend
+node_modules/
+dist/
+
+# VSCode
+.vscode/
